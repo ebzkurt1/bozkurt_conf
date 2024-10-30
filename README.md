@@ -11,6 +11,10 @@ sudo apt install tmux
 ```shell
 cp .tmux.conf ~/
 ```
+- Install TPM (Tmux plugin manager)
+```shell
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
 
 
 
