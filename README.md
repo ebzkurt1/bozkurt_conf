@@ -28,3 +28,9 @@ echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
+
+## Bits of info
+Here is how to remap the `capslock` key as `control left`
+```shell
+setxkbmap -option ctrl:nocaps
+```
